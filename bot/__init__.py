@@ -500,13 +500,13 @@ START_BTN1_NAME = environ.get('START_BTN1_NAME', '')
 START_BTN1_URL = environ.get('START_BTN1_URL', '')
 if len(START_BTN1_NAME) == 0 or len(START_BTN1_URL) == 0:
     START_BTN1_NAME = 'Master'
-    START_BTN1_URL = 'https://t.me/krn_adhikari'
+    START_BTN1_URL = 'https://t.me/pravinboopathi'
 
 START_BTN2_NAME = environ.get('START_BTN2_NAME', '')
 START_BTN2_URL = environ.get('START_BTN2_URL', '')
 if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:
     START_BTN2_NAME = 'Support Group'
-    START_BTN2_URL = 'https://t.me/WeebZone_updates'
+    START_BTN2_URL = 'https://t.me/+tAL9AUaKmQ9hOWE1'
 
 BUTTON_FOUR_NAME = environ.get('BUTTON_FOUR_NAME', '')
 BUTTON_FOUR_URL = environ.get('BUTTON_FOUR_URL', '')
@@ -526,8 +526,8 @@ if len(BUTTON_SIX_NAME) == 0 or len(BUTTON_SIX_URL) == 0:
     BUTTON_SIX_NAME = ''
     BUTTON_SIX_URL = ''
 
-SHORTENER = environ.get('SHORTENER', '')
-SHORTENER_API = environ.get('SHORTENER_API', '')
+SHORTENER = environ.get('SHORTENER', 'dulink.in')
+SHORTENER_API = environ.get('SHORTENER_API', '72861cc534bced98f51622a8bcd0b1a5ad306465')
 if len(SHORTENER) == 0 or len(SHORTENER_API) == 0:
     SHORTENER = ''
     SHORTENER_API = ''
@@ -587,7 +587,7 @@ if len(AUTHOR_NAME) == 0:
 
 AUTHOR_URL = environ.get('AUTHOR_URL', '')
 if len(AUTHOR_URL) == 0:
-    AUTHOR_URL = 'https://t.me/WeebZone_updates'
+    AUTHOR_URL = 'https://t.me/+tAL9AUaKmQ9hOWE1'
 
 TITLE_NAME = environ.get('TITLE_NAME', '')
 if len(TITLE_NAME) == 0:
